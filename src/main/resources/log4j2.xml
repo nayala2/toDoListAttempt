@@ -1,0 +1,39 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="WARN">-->
+
+<!--    <Appenders>-->
+<!--        <Console name="ConsoleJSONAppender" target="SYSTEM_OUT">-->
+<!--            <JsonLayout complete="false" compact="false">-->
+<!--            </JsonLayout>-->
+<!--        </Console>-->
+<!--        <File name="MyFile" fileName="/Users/nayala2/Documents/SoftwareDevelopmentII/toDoListAttempt/app.json">-->
+<!--            <JsonLayout complete="true" compact="false">-->
+<!--            </JsonLayout>-->
+<!--        </File>-->
+<!--    </Appenders>-->
+
+<!--    <Logger name="CONSOLE_JSON_APPENDER" level="TRACE" additivity="false">-->
+<!--        <AppenderRef ref="ConsoleJSONAppender" />-->
+<!--    </Logger>-->
+
+<!--&lt;!&ndash;    <Appenders>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Console name="LogInJSON" target="SYSTEM_OUT">&ndash;&gt;-->
+<!--&lt;!&ndash;            <JsonLayout complete="true" compact="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                <KeyValuePair key="StudytonightField" value="studytonightValue" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </JsonLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Console>&ndash;&gt;-->
+<!--&lt;!&ndash;        <File name="MyFile" fileName="/Users/nayala2/Documents/SoftwareDevelopmentII/toDoListAttempt/app.json">&ndash;&gt;-->
+<!--&lt;!&ndash;            <JsonLayout complete="true" compact="false">&ndash;&gt;-->
+<!--&lt;!&ndash;                <KeyValuePair key="StudytonightField" value="studytonightValue" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </JsonLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;        </File>&ndash;&gt;-->
+<!--&lt;!&ndash;    </Appenders>&ndash;&gt;-->
+<!--&lt;!&ndash;    <Loggers>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Logger name="com.softwaredevii.todolistattempt" level="debug" additivity="false">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="LogInJSON"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Root level="error">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="LogInJSON"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Root>&ndash;&gt;-->
+<!--&lt;!&ndash;    </Loggers>&ndash;&gt;-->
+<!--</Configuration>-->

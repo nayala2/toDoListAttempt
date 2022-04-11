@@ -1,0 +1,269 @@
+/*<style type="text/css"> */
+
+
+
+.inner {
+    background-image: url("cafe-swirl.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    top:122px;
+    left:308px;
+    height: 200px;
+    width: 200px;
+}
+
+[type="checkbox"]
+{
+    padding: 10px;
+    vertical-align:middle;
+}
+
+.checkbox-style label{
+    word-wrap:break-word
+}
+
+figure {
+    margin: 0;
+}
+.main-background {
+    position: absolute;
+    z-index:0;
+}
+figcaption {
+    /*color: #4B1F0E;*/
+    color: black;
+    display: inline-block;
+    font: bold 24px/45px goingtodogreatthings;
+    left: 600px;
+    padding: 10px;
+    position: relative;
+    top: 125px;
+    transform: rotate(-0.5deg);
+
+}
+
+figcaption p {
+    font: bold 30px "goingtodogreatthings";
+    text-align: center;
+}
+figcaption h1{
+    font: bold 35px "KG Summer Sunshine";
+    text-align: center;
+}
+.form-style-3{
+    max-width: 450px;
+    font-family: "KG Summer Sunshine";
+
+    /*font-family: "Breve SC";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+.form-style-3 label{
+    display:block;
+    margin-bottom: 0px;
+}
+
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: black;
+    font-weight: lighter;
+    font-family: "KG Summer Sunshine";
+    font-size: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    vertical-align: bottom;
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+    padding: 15px;
+    background: whitesmoke;
+    box-shadow: inset 0px 0px 15px lightgrey;
+    -moz-box-shadow: inset 0px 0px 15px lightgrey;
+    -webkit-box-shadow: inset 0px 0px 15px lightgrey;
+    font-family: "goingtodogreatthings";
+    /*transform: rotate(-0.5deg);*/
+
+}
+.form-style-3 fieldset legend{
+    color: black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: whitesmoke;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px lightgrey;
+    -moz-box-shadow:-0px -1px 2px lightgrey;
+    -webkit-box-shadow:-0px -1px 2px lightgrey;
+    font-weight: normal;
+    font-family: "KG Summer Sunshine";
+    font-size: 12px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select,
+.form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px lightgrey;
+    -moz-box-shadow: inset 1px 1px 4px lightgrey;
+    -webkit-box-shadow: inset 1px 1px 4px lightgrey;
+    background: ghostwhite;
+    width:50%;
+}
+input[type=submit],
+input[type=button]{
+    background: black;
+    border: 1px solid #0e0504;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    box-shadow: inset -1px -1px 3px lightgrey;
+    -moz-box-shadow: inset -1px -1px 3px lightgrey;
+    -webkit-box-shadow: inset -1px -1px 3px lightgrey;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+}
+
+.submit-button {
+    padding-top: 10px;
+}
+.submit-button button{
+    background: #4B1F0E;
+    border: 1px solid #0e0504;
+    padding: 5px 15px 5px 15px;
+    color: whitesmoke;
+    box-shadow: inset -1px -1px 3px #794028;
+    -moz-box-shadow: inset -1px -1px 3px #794028;
+    -webkit-box-shadow: inset -1px -1px 3px #794028;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:normal;
+}
+
+.videos-list {
+    max-width: 600px;
+    overflow: hidden;
+    z-index: 2;
+    object-fit: contain;
+
+}
+
+.video {
+    background-color: black;
+    height: 330px;
+    width: 600px;
+    margin-bottom: 50px;
+    z-index: 2;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 318px;
+    top: 405px;
+    object-fit: contain;
+    max-width: 210px;
+    max-height: 125px;
+    transform: rotate(2.1deg);
+}
+
+.video iframe {
+    width: 200px;
+    height: 125px;
+    /*transform: rotate(2.5deg);*/
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.berries-image-card {
+    /*display: inline;*/
+    /*box-sizing: border-box;*/
+    margin: 0.4rem;
+    width: 240px;
+    height: 330px;
+    background-image: url("plant.png");
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    /*0px 25px 50px -12px;*/
+    z-index: 3;
+    position: absolute;
+}
+
+.berries-perspective-right {
+    position: absolute;
+    transform: perspective(1500px) rotateY(-10deg) rotateX(-10deg);
+    transition: transform 1s ease 0s;
+    z-index: 4;
+    top: 0.75px;
+    left: 1010px;
+}
+
+.berries-perspective-right:hover {
+    transform: perspective(3000px) rotateY(-20deg) rotatex(-10deg);
+}
+
+/*leaves animation*/
+.leaves-image-card {
+    /*display: inline;*/
+    /*box-sizing: border-box;*/
+    margin: 0.4rem;
+    width: 300px;
+    height: 500px;
+    background-image: url("leaves.png");
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    /*0px 25px 50px -12px;*/
+    /*z-index: 5;*/
+    position: absolute;
+}
+
+.leaves-perspective-right {
+    position: absolute;
+    transform: perspective(1500px) rotateY(-10deg) ;
+    transition: transform 1s ease 0s;
+    /*z-index: 6;*/
+    top: 2px;
+    left: 1010px;
+}
+
+.leaves-perspective-right:hover {
+    transform: perspective(3000px) rotateY(-20deg) ;
+}
+/*</style>*/

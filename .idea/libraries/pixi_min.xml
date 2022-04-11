@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pixi.min" type="kotlin.js">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../pixi.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
